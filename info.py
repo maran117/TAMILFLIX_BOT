@@ -48,6 +48,9 @@ else:
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002023479054').split()]
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002189233525') #bot log channel -1005293546253
+if len(LOG_CHANNEL) == 0:
+    print('Error - LOG_CHANNEL is missing, exiting now')
 AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1002023479054').split()]
 if len(AUTH_CHANNEL) == 0:
     print('Info - AUTH_CHANNEL is empty')
@@ -55,9 +58,6 @@ if len(AUTH_CHANNEL) == 0:
 else:
      AUTH_CHANNEL= int(AUTH_CHANNEL)
 IS_FSUB = is_enabled('IS_FSUB', True)
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002189233525') #bot log channel -1005293546253
-if len(LOG_CHANNEL) == 0:
-    print('Error - LOG_CHANNEL is missing, exiting now')
     
 
 # support group
@@ -84,7 +84,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TamilFlix_Mv")
 
 # Bot settings
-DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
+DELETE_TIME = int(environ.get('DELETE_TIME', 30)) # Add time in seconds 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 10)) #don't change anything in Language 
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english hindi telugu tamil kannada malayalam').split()]
