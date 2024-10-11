@@ -83,14 +83,14 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TamilFlix_Mv")
 
 # Bot settings
-DELETE_TIME = int(environ.get('DELETE_TIME', 30)) # Add time in seconds 
+DELETE_TIME = int(environ.get('DELETE_TIME', 60)) # Add time in seconds 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 10)) #don't change anything in Language 
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english hindi telugu tamil kannada malayalam').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "onepagelink.in")
-SHORTLINK_API = environ.get("SHORTLINK_API", "f646357aa129cfbd7eb59bcba428096ab54ca950")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "instantlinks.co")
+SHORTLINK_API = environ.get("SHORTLINK_API", "645ea7db843cb1a5977267341cf8adb1873675f5")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
