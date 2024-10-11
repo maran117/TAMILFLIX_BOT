@@ -57,7 +57,7 @@ if len(LOG_CHANNEL) == 0:
     exit()
 else:
     LOG_CHANNEL = int(LOG_CHANNEL)
-IS_FSUB = is_enabled('IS_FSUB', True)
+IS_FSUB = is_enabled('IS_FSUB', False)
 
 # support group
 SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002280475489') #support group id ex:  -1002936246860
@@ -80,7 +80,7 @@ SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TamilFlix_Mv')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/TamilFlix_Mv')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/TamilFlix_Mv')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TamilFlix_Mv")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
@@ -103,10 +103,10 @@ GROUP_FSUB = is_enabled('GROUP_FSUB', False)
 PM_SEARCH = is_enabled('PM_SEARCH', False) #switch True or False for searching results in bot pm😃
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
-WELCOME = is_enabled('WELCOME', False)
+WELCOME = is_enabled('WELCOME', True)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
-LINK_MODE = is_enabled("LINK_MODE", True)
+LINK_MODE = is_enabled("LINK_MODE", False)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IMDB = is_enabled('IMDB', True)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
@@ -114,7 +114,7 @@ SHORTLINK = is_enabled('SHORTLINK', False)
 
 
 PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg') #telegraph link of your QR code 
-UPI_ID = environ.get('UPI_ID', 'Rishikesh-sharma09@axl') # Add your upi id here
+UPI_ID = environ.get('UPI_ID', 'maran116@paytm') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002189233525") #if is_stream = true then add a channel id ex: -10026393639
