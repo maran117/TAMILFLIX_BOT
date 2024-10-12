@@ -113,7 +113,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🗳 Tutorial 🗳', url=VERIFY_TUTORIAL)
             ]]
-            await message.reply("You not verified today! Kindly verify now. 🔐", reply_markup=InlineKeyboardMarkup(btn), protect_content=True)
+            await message.reply(" நீங்கள் Verify செய்வதன் மூலம் நீங்கள் விரும்பும் படங்களை 🤯ஒரு நாள் முழுவதும்🤯  விளம்பரம் இல்லாமல் பெற்றுக் கொள்ளலாம்🎉  👉   You not verified today! Kindly verify now. 🔐", reply_markup=InlineKeyboardMarkup(btn), protect_content=True)
             return
     else:
         pass
@@ -171,7 +171,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             asyncio.create_task(delayed_delete(client, sent_message, 600))
-        await message.reply("<b>This file will be deleted after 10 min so please forward it in your saved messages.</b>")                                   
+        await message.reply("<b> பதுப்புரிமை காரணமாக இந்த படம் 10 நிமிடங்களில் நீக்கப்படும் வேறு எங்கேயாவது பகிர்ந்து கொள்ளவும்.👉 This file will be deleted after 10 min so please forward it in your saved messages.</b>")                                   
         return
 
     type_, grp_id, file_id = mc.split("_", 2)
