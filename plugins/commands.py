@@ -99,7 +99,7 @@ async def start(client, message):
                 InlineKeyboardButton("📌 Get File 📌", url=f'https://t.me/{temp.U_NAME}?start={verify_status["link"]}')
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
-        await message.reply(f"✅ You successfully verified until: {get_readable_time(VERIFY_EXPIRE)}", reply_markup=reply_markup, protect_content=True)
+        await message.reply(f"✅ You successfully verified ✅: {get_readable_time(VERIFY_EXPIRE)}", reply_markup=reply_markup, protect_content=True)
         return
     
     verify_status = await get_verify_status(message.from_user.id)
@@ -113,7 +113,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🗳 Tutorial 🗳', url=VERIFY_TUTORIAL)
             ]]
-            await message.reply(" நீங்கள் Verify செய்வதன் மூலம் நீங்கள் விரும்பும் படங்களை 🤯ஒரு நாள் முழுவதும்🤯  விளம்பரம் இல்லாமல் பெற்றுக் கொள்ளலாம்🎉  👉   You not verified today! Kindly verify now. 🔐", reply_markup=InlineKeyboardMarkup(btn), protect_content=True)
+            await message.reply(" நீங்கள் 𝗩𝗘𝗥𝗜𝗙𝗬 செய்வதன் மூலம் நீங்கள் விரும்பும் படங்களை ஒரு நாள் முழுவதும் விளம்பரம் இல்லாமல் பெற்றுக் கொள்ளலாம். 📍📍📍📍📍📍📍📍📍 🔐 𝗬𝗢𝗨 𝗡𝗢𝗧 𝗩𝗘𝗥𝗜𝗙𝗜𝗘𝗗 ❌ 𝗧𝗢𝗗𝗔𝗬 𝗞𝗜𝗡𝗗𝗟𝗬 𝗩𝗘𝗥𝗜𝗙𝗬 𝗡𝗢𝗪 🔐", reply_markup=InlineKeyboardMarkup(btn), protect_content=True)
             return
     else:
         pass
@@ -550,7 +550,7 @@ async def remove_premium_cmd_handler(client, message):
             await message.reply_text("Premium access removed to the user.")
             await client.send_message(
                 chat_id=user_id,
-                text=f"<b>premium removed by admins \n\n Contact Admin if this is mistake \n\n 👮 Admin : @Rk_botowner \n</b>",                
+                text=f"<b>premium removed by admins \n\n Contact Admin if this is mistake \n\n 👮 Admin : @Aadmin526 \n</b>",                
             )
         else:
             await message.reply_text("Invalid time format.'")
