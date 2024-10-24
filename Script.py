@@ -93,7 +93,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
-    WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
+    WELCOME_TEXT = """📢 வணக்கம்  வாங்க..  ◤   {fullname}  🦋 {mention}  ◢    🎉 \n\n» Check movie name from Google (Spelling should be correct) \n\n» Request Your Movie and wait for your reply form Admin botn\n \n\n» You will get the requested movie through Direct Telegram Files  \n\n» Don't request PreDVD movies due to copyright issues \n\n🙏Movies Request Format👇 \n\n #Name : Vada chennai"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
     
