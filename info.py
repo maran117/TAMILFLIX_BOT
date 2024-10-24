@@ -83,7 +83,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rotz")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TamilFlix_Mv")
 
 # Bot settings
-DELETE_TIME = int(environ.get('DELETE_TIME', 600)) # Add time in seconds 
+DELETE_TIME = int(environ.get('DELETE_TIME', 1200)) # Add time in seconds 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 10)) #don't change anything in Language 
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english hindi telugu tamil kannada malayalam').split()]
@@ -99,7 +99,7 @@ STICKERS_IDS = (
 ).split()
 
 # boolean settings 
-GROUP_FSUB = is_enabled('GROUP_FSUB', False) 
+GROUP_FSUB = is_enabled('GROUP_FSUB', True) 
 PM_SEARCH = is_enabled('PM_SEARCH', False) #switch True or False for searching results in bot pm😃
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
