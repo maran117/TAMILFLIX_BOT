@@ -76,7 +76,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TamilFlix_Mv')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TamilFlix_Admine_bot')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/TamilFlix_Mv')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/TamilFlix_Mv')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rotz")
