@@ -9,8 +9,8 @@ class script(object):
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
     MY_OWNER_TXT = """★ Name: ᴛᴀᴍɪ ꜰʟɪx ʙᴏᴛ
-★ Username: @Aadmin526
-★ Update Channel : @Aadmin526"""
+★ Username: @TamilFlix_Admine_bot
+★ Update Channel : @TamilFlix_Admine_bot"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -134,10 +134,8 @@ I can't find the <b>{}</b> in my database! 🥲
 /my_plan - to check your plan details
 /plans - to get plan details</b>"""
 
-    SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ -
+    SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ 
 
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/TamilFlix_Admine_bot>💸 ʜᴇʀᴇ 🔐</a>
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/Aadmin526>💸 ʜᴇʀᴇ 💸</a>
-
-- ᴅᴇᴠʟᴏᴘᴇʀ - @Aadmin526"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - <a href=https://t.me/TamilFlix_Admine_bot> ⚙️ ʜᴇʀᴇ ⚙️ </a>"""
