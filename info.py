@@ -79,8 +79,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TamilFlix_Admine_bot')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/TamilFlix_Mv')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/TamilFlix_Mv')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TamilFlix_Mv")
+TUTORIAL = environ.get("TUTORIAL", "https://youtu.be/T1zw6AxehBk?si=UcO8pYT3b6nfGwCm")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://youtu.be/T1zw6AxehBk?si=UcO8pYT3b6nfGwCm")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 1200)) # Add time in seconds 
