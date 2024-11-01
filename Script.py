@@ -136,6 +136,6 @@ I can't find the <b>{}</b> in my database! 🥲
 
     SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ 
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/TamilFlix_Admine_bot>💸 ʜᴇʀᴇ 🔐</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/TamilFlix_Admine_bot> ʜᴇʀᴇ 📌 </a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - <a href=https://t.me/TamilFlix_Admine_bot> ⚙️ ʜᴇʀᴇ ⚙️ </a>"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - <a href=https://t.me/TamilFlix_Admine_bot>  ʜᴇʀᴇ 🪪 </a>"""
