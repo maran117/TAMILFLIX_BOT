@@ -17,7 +17,6 @@ class script(object):
 👥 Total Chats: <code>{}</code>
 ✨ Used Storage: <code>{}</code>
 🗳 Free Storage: <code>{}</code>
-🤑 Premium Users: <code>{}</code>
 🚀 Bot Uptime: <code>{}</code>"""
 
     NEW_GROUP_TXT = """#NewGroup
