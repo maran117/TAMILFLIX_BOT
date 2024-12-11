@@ -171,7 +171,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             asyncio.create_task(delayed_delete(client, sent_message, 600))
-        await message.reply("<b> 📌📌பதுப்புரிமை காரணமாக இந்த படம் 10 நிமிடங்களில் நீக்கப்படும் வேறு எங்கேயாவது பகிர்ந்து கொள்ளவும்.📌📌 \n\n 📌📌This file will be deleted after 10 min so please forward it in your saved messages.📌📌</b>")                                   
+        await message.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")                                   
         return
 
     type_, grp_id, file_id = mc.split("_", 2)
@@ -222,7 +222,7 @@ async def start(client, message):
         protect_content=settings['file_secure'],
         reply_markup=InlineKeyboardMarkup(btn)
     )
-    await sent_message.reply("<b>❗❗பதுப்புரிமை காரணமாக இந்த படம் 10 நிமிடங்களில் நீக்கப்படும் வேறு எங்கேயாவது பகிர்ந்து கொள்ளவும்.❗❗ \n\n ❗❗This file will be deleted after 10 min so please forward it in your saved messages.❗❗</b>")
+    await sent_message.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
     asyncio.create_task(delayed_delete(client, sent_message, 600))
 
 @Client.on_message(filters.command('index_channels') & filters.user(ADMINS))
