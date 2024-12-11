@@ -17,6 +17,7 @@ class script(object):
 👥 Total Chats: <code>{}</code>
 ✨ Used Storage: <code>{}</code>
 🗳 Free Storage: <code>{}</code>
+🤑 Premium Users: <code>{}</code>
 🚀 Bot Uptime: <code>{}</code>"""
 
     NEW_GROUP_TXT = """#NewGroup
@@ -87,7 +88,7 @@ I can't find the <b>{}</b> in my database! 🥲
 📀 RunTime: {runtime} Minutes
 
 🗣 Requested by: {message.from_user.mention}
-©️ Powered by: <b>{message.chat.title}</b>"""
+💁‍♂️ Powered by: <b>{message.chat.title}</b>"""
 
     FILE_CAPTION = """<i>@TamilFlix_Mv {file_name}</i>
 
